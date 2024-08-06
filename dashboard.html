@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Nutrifit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nutrifit</h1>
+    </header>
+    <main>
+        <section class="dashboard">
+            <h2>Welcome to Nutrifit</h2>
+            <div class="icon-grid">
+                <div class="icon">
+                    <img src="heart-icon.png" alt="Heart Rate">
+                    <p>Heart Rate</p>
+                </div>
+                <div class="icon">
+                    <img src="pill-icon.png" alt="Medication">
+                    <p>Medication</p>
+                </div>
+                <div class="icon">
+                    <img src="document-icon.png" alt="Documents">
+                    <p>Documents</p>
+                </div>
+            </div>
+        </section>
+        <section class="checkup-results">
+            <h3>Enter your check-up results</h3>
+            <form action="/submit-results" method="post">
+                <label for="vitaminA">Vitamin A:</label>
+                <input type="checkbox" id="vitaminA" name="vitaminA">
+                
+                <label for="vitaminB12">Vitamin B12:</label>
+                <input type="checkbox" id="vitaminB12" name="vitaminB12">
+                
+                <label for="vitaminC">Vitamin C:</label>
+                <input type="checkbox" id="vitaminC" name="vitaminC">
+                
+                <label for="vitaminD3">Vitamin D3:</label>
+                <input type="checkbox" id="vitaminD3" name="vitaminD3">
+                
+                <label for="vitaminE">Vitamin E:</label>
+                <input type="checkbox" id="vitaminE" name="vitaminE">
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="vitamin-info">
+            <h3>Vita Health Vitamin C</h3>
+            <div class="section">
+                <h4>Benefits of Vitamin C</h4>
+                <ul>
+                    <li>Boosts immune system</li>
+                    <li>Improves skin health</li>
+                    <li>Reduces risk of chronic diseases</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Daily Intake Recommendations</h4>
+                <ul>
+                    <li>Men: 90 mg</li>
+                    <li>Women: 75 mg</li>
+                    <li>Pregnant women: 85 mg</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Foods High in Vitamin C</h4>
+                <ul>
+                    <li>Oranges</li>
+                    <li>Strawberries</li>
+                    <li>Bell peppers</li>
+                    <li>Broccoli</li>
+                </ul>
+            </div>
+        </section>
+        <section class="qr-code-scanner">
+            <h3>QR Code Scanner</h3>
+            <div class="qr-code">
+                <img src="qr-code.png" alt="QR Code">
+            </div>
+            <button type="button">Scan now</button>
+        </section>
+        <section class="nutrition-info">
+            <h3>Tomatoes</h3>
+            <div class="section">
+                <h4>Nutritional Content per 100g</h4>
+                <ul>
+                    <li>Calories: 18</li>
+                    <li>Protein: 0.9g</li>
+                    <li>Carbohydrates: 3.9g</li>
+                    <li>Fiber: 1.2g</li>
+                    <li>Vitamin C: 13.7mg</li>
+                </ul>
+            </div>
+        </section>
+        <section class="smart-scanner">
+            <h3>Smart Scanner</h3>
+            <div class="scanner">
+                <img src="tomatoes.png" alt="Tomatoes">
+                <p>Scanning...</p>
+            </div>
+        </section>
+        <section class="team">
+            <h3>Meet Our Team</h3>
+            <div class="team-member">
+                <img src="team-member1.png" alt="Team Member 1">
+                <p>John Doe - Nutrition Expert</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member2.png" alt="Team Member 2">
+                <p>Jane Smith - Fitness Coach</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member3.png" alt="Team Member 3">
+                <p>Emily Johnson - Health Advisor</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Nutrifit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
